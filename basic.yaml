@@ -1,0 +1,10 @@
+---
+#list 
+  fruits:
+   -apple
+   -mango
+   -orange
+   -pineapple
+   -cherry
+  
+...
