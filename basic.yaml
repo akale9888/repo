@@ -1,10 +1,11 @@
 ---
 #list 
-  fruits:
-   -apple
-   -mango
-   -orange
-   -pineapple
-   -cherry
+  - name: "loop through list"
+  debug:
+    msg: "An item: {{item}}"
+  with_items:
+    - 1
+    - 2
+    - 3
   
 ...
