@@ -4,8 +4,8 @@
     - name: task in ansible 
       debug:
         msg: list of cities {{item}}
-   loop:
-     - Nagpur
-     - Mumbai
-     - Pune
-     - Amravati
+       loop:
+        - Nagpur
+        - Mumbai
+        - Pune
+        - Amravati
