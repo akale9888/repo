@@ -3,4 +3,6 @@
   tasks:
     - name: ansible host informative
       debug:
-        msg: "{{ansible_distribution}}"
+        msg: 
+        - "{{ansible_distribution}}"
+        - "{{ansible_os_family}}"
