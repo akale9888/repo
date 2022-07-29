@@ -1,6 +1,6 @@
--name: debug playbook
-hosts: all
-tasks: 
+- name: debug playbook
+  hosts: all
+  tasks: 
   - name: print msg
-    debug: 
-    msg: Welcome to the debugger error free file
+     debug: 
+       msg: Welcome to the debugger error free file
