@@ -13,7 +13,7 @@
 
 - name: loops in ansible
   hosts: all
-  become: yes
+  become: no
 
   tasks:
     - name: Install packages 
