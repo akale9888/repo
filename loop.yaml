@@ -14,5 +14,5 @@
 
 - name: Install the latest version of Apache
    ansible.builtin.yum:
-    name: httpd
-    state: latest
+                  name: httpd
+                 state: latest
