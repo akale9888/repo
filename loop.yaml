@@ -9,3 +9,17 @@
         - Mumbai
         - Pune
         - Amravati
+
+- name: loops in ansible
+  hosts: all
+  become: yes
+  tasks:
+    - name: install package
+       yum:
+      state: present
+      name: {{item}}
+      loop:
+       - httpd
+       - tree
+       - vim
+       - java 
