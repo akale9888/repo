@@ -15,9 +15,9 @@
   become: yes
   tasks:
     - name: install package
-       yum:
-      state: present
-      name: {{item}}
+      yum:
+        state: present
+        name: {{item}}
       loop:
        - httpd
        - tree
