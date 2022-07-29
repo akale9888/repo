@@ -1,6 +1,6 @@
 - name: condition in ansible 
- hosts: all
- tasks:
+  hosts: all
+  tasks:
    - name: run task on centos 
      debug:
        msg: task is running on centos 
