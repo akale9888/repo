@@ -4,7 +4,7 @@
    - name: run task on centos 
      debug:
        msg: task is running on centos 
-     when: ansible_distribution == "Centos"
+     when: ansible_distribution == "centos"
 
    - name: run task on ubuntu
      debug: 
