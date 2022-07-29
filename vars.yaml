@@ -2,6 +2,8 @@
   hosts: all  
   vars: 
     url: www.example.com
+    vars_files:
+     - filevars.yaml  
 
   tasks: 
     - name: variable print 
