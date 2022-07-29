@@ -8,4 +8,12 @@
     - name: print out
       debug: 
         msg: "{{OUT.stdout}}"
-        
+
+    - name: listing 
+      shell: ls
+      register: WORK
+
+    - name: print out
+      debug: 
+        msg: "{{WORK.stdout}}"
+      
