@@ -13,7 +13,8 @@
 
 - name: loops in ansible
   hosts: all
-  become: no
+  become: yes
+
   tasks:
     - name: Install packages 
       ansible.builtin.yum:
