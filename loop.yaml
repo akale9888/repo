@@ -14,10 +14,10 @@
   hosts: all
   become: yes
   tasks:
-    - name: install package
+   - name: install package
       yum:
-        state: present
-       name: {{item}}
+       state: present
+        name: {{item}}
       loop:
        - httpd
        - tree
