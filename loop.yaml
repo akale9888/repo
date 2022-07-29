@@ -1,0 +1,11 @@
+- name: loops in ansible
+  hosts: all
+  tasks:
+    - name: task in ansible 
+      debug:
+        msg: list of cities {{item}}
+   loop:
+     - Nagpur
+     - Mumbai
+     - Pune
+     - Amravati
