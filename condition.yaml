@@ -12,6 +12,6 @@ tasks:
   when: ansible_distribution == "Ubuntu"
 
 - name: run task on Debian
- debug:
+  debug:
     msg: task is running on ubuntu 
   when: ansible_distribution == "Debian"
