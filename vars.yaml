@@ -9,5 +9,5 @@
     - name: variable print 
       debug: 
         msg: "{{url}}"
-       vars: 
+      vars: 
          url: www.local.example222.com
