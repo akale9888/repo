@@ -5,7 +5,7 @@
       shell: uptime
       register: OUT
 
-    - name: print out
+      - name: print out
       debug: 
       msg: "{{OUT.stdout}}"
         
