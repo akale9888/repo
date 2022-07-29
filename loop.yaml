@@ -18,7 +18,7 @@
   tasks:
     - name: Install packages 
       ansible.builtin.yum:
-       state: absent
+       state: present
        name:  "{{item}}"
       loop:
         - httpd
