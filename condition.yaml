@@ -1,0 +1,17 @@
+name: condition in ansible 
+hosts: all
+tasks:
+- name: run task on centos 
+  debug:
+    msg: task is running on centos 
+    when: ansible_distribution == "Centos"
+
+- name: run task on ubuntu
+  debug: 
+    msg: task is running on ubuntu 
+  when: ansible_distribution == "Ubuntu"
+
+- name: run task on Debian
+ debug:
+    msg: task is running on ubuntu 
+  when: ansible_distribution == "Debian"
