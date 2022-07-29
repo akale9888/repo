@@ -2,12 +2,12 @@
   hosts: all  
   vars: 
     url: www.example.com
-    vars_files:
-     - filevars.yaml  
+  vars_files:
+    - filevars.yaml  
 
   tasks: 
     - name: variable print 
       debug: 
         msg: "{{url}}"
-        vars: 
-           url: www.local.example222.com
+       vars: 
+         url: www.local.example222.com
