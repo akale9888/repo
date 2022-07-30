@@ -1,6 +1,7 @@
 - name: copy the file from master node
   hosts: all
   tasks:
+  become: yes
     - name: copy the file from master node
       copy: 
         src: /home/centos/mayur.txt
