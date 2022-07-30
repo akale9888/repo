@@ -1,0 +1,12 @@
+- name: block in files 
+  hosts: all
+  become: yes
+  tasks:
+-   name: block in files 
+    blockinfile:
+      path: /opt/mayur.conf
+      block:
+        <virtualhost *:80>
+        servername localhost
+        documentroot /var/www/html/
+        </virtualhost>
