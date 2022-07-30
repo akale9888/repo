@@ -2,7 +2,7 @@
   hosts: all
   become: yes
   tasks:
--   name: block in files 
+  - name: block in files 
     blockinfile:
       path: /opt/mayur.conf
       block:
