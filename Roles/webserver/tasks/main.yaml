@@ -10,7 +10,7 @@
 
 - name: content of html 
   get_url: 
-      url: https://myvpc9211.s3.amazonaws.com/student.html
+      url: https://okokokokokokokoko.s3.amazonaws.com/aka.html
       dest: "{{root_location}}/index.html"
 
 - name: start httpd service
