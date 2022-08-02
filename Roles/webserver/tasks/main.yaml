@@ -6,7 +6,7 @@
 - name: copy proxy filevars
   copy:
     src: proxy.conf
-    dest: "{{proxy_conf}}"/proxy.conf
+    dest: /etc/httpd/conf.d/proxy.conf
 
 -name: content of html 
 get_url: 
