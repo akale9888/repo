@@ -3,7 +3,7 @@
     state: present
     name: httpd
 
-- name: copy proxy filevars
+- name: copy proxy file
   copy:
     src: proxy.conf
     dest: /etc/httpd/conf.d/proxy.conf
