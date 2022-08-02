@@ -1,0 +1,5 @@
+- name: Roles for webapp
+  hosts: all
+  become: yes
+  Roles: 
+    - webserver
