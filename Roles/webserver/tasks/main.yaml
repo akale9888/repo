@@ -8,7 +8,7 @@
     src: proxy.conf
     dest: /etc/httpd/conf.d/proxy.conf
 
--name: content of html 
+- name: content of html 
 get_url: 
      url: https://myvpc9211.s3.amazonaws.com/student.html
      dest: "{{root_location}}/index.html"
