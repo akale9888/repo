@@ -15,5 +15,5 @@
 
 - name: services starting
   services:
-      name: httpd
-      state: started
+       name: httpd
+       state: started
