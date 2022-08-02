@@ -14,6 +14,6 @@
       dest: "{{root_location}}/index.html"
 
 - name: start httpd service
-  services:
+  service:
     name: httpd
     state: started
